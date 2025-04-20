@@ -3,6 +3,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+  font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -51,20 +52,117 @@ nav{
 .find-your{
   background-image: url("/Users/danielaramos/Documents/GitHub/BranchOut/src/pics/grass.jpeg");
   background-size: cover;
-  height: 700px;
+  height: 791px;
   align-content: center;
   justify-items: center;
 }
 
 .home-title{
-  font-size: 50px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
   color: #FFFFFF;
 }
 
 .home-explain{
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
   margin-top: 2rem;
-  width:35%;
-  font-size: 20px;
+  width:1067px;
+  height: 96px;
+  font-size: 40px;
   color: #FFFFFF;
   text-align: center;
+}
+
+.survey-nav-button{
+  
+  margin-top: 20px;
+  background-color:#B31A1B;
+  color:#FFFFFF;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  padding-left: 46px;
+  padding-right: 46px;
+  border-radius: 100px;
+  border: none;
+  font-size: 23px;
+  font-weight: bold;
+  
+}
+
+.why-use{
+  height: 791px;
+  align-content: center;
+  justify-items: center;
+
+}
+
+.why-title{
+  color: black;
+  font-size: 64px;
+  font-weight: 700px;
+}
+
+.why-circles-container{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.why-circle{
+  margin: 50px;
+  justify-items: center;
+  align-content: center;
+  justify-items: center;
+}
+
+.why-circle-title{
+  font-size: 40px;
+  font-weight: 700;
+  color: #4CAF50;
+  text-align: center;
+}
+
+.why-circle-explain{
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.circular-img {
+  width: 200px;         /* or whatever size you want */
+  height: 200px;
+  border-radius: 50%;   /* this makes it a circle */
+  object-fit: cover;    /* ensures it fills the circle without distortion */
+  overflow: hidden;
+}
+
+.ready{
+  padding: 40px;
+  background-color: #B31A1B;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-items: center; */
+  height: 563px;
+  justify-content: center;
+}
+
+.survey-nav-button2{
+  margin-top: 20px;
+  background-color: #FFFFFF;
+  color:#B31A1B;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  padding-left: 46px;
+  padding-right: 46px;
+  border-radius: 100px;
+  border: none;
+  font-size: 23px;
+  font-weight: bold;
+  width: fit-content;
+  height: 86px;
+  
 }
