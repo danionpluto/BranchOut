@@ -91,6 +91,12 @@ nav{
   
 }
 
+.survey-nav-button:hover{
+  
+  background-color: #b13434;
+
+}
+
 .why-use{
   height: 791px;
   align-content: center;
@@ -164,5 +170,9 @@ nav{
   font-weight: bold;
   width: fit-content;
   height: 86px;
+  
+}
+.survey-nav-button2:hover{
+  background-color: #f1ebeb;
   
 }
