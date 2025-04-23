@@ -48,7 +48,7 @@ const Home = () => {
             </div>
 
             <div id="how-it-works" className="how-it-works">
-                <h2>How It Works</h2>
+                <h1 className="how-title">How it Works</h1>
                 <p>Lilly Code.</p>
             </div>
 

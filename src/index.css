@@ -51,6 +51,7 @@ nav{
 
 .find-your{
   background-image: url("/Users/danielaramos/Documents/GitHub/BranchOut/src/pics/grass.jpeg");
+  /* background-image: url('/Users/danielaramos/Documents/GitHub/BranchOut/src/pics/Rectangle_159.png'); */
   background-size: cover;
   height: 791px;
   align-content: center;
@@ -144,6 +145,25 @@ nav{
   object-fit: cover;    /* ensures it fills the circle without distortion */
   overflow: hidden;
 }
+
+
+.how-it-works{
+  height: 791px;
+  background-color: #4CAF50;
+  justify-items: center;
+  padding: 80px;
+
+}
+
+.how-title{
+  
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  color: #FFFFFF;
+  
+}
+
 
 .ready{
   padding: 40px;
