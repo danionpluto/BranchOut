@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -14,43 +14,40 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-nav{
+nav {
   display: flex;
-  justify-content:right;
+  justify-content: right;
   padding: 0.2rem calc((100vw - 1000px) / 19);
   z-index: 12;
-  
-  
-  background-size:cover;
+
+  background-size: cover;
   /* background-color: #fff8f8; */
-  background-color: #B31A1B;
-  
-  
+  background-color: #b31a1b;
 }
 
-.link-styles2{
+.link-styles2 {
   margin: 30px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
 }
-.link-styles{
+.link-styles {
   margin: 30px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
   margin-right: 55%;
   font-size: 40px;
 }
 
-.homepage{
+.homepage {
   height: fit-content;
 }
 
-.find-your{
-  background-image: url("/Users/danielaramos/Documents/GitHub/BranchOut/src/pics/grass.jpeg");
+.find-your {
+  background-image: url("./pics/grass.jpeg");
   /* background-image: url('/Users/danielaramos/Documents/GitHub/BranchOut/src/pics/Rectangle_159.png'); */
   background-size: cover;
   height: 791px;
@@ -58,29 +55,28 @@ nav{
   justify-items: center;
 }
 
-.home-title{
+.home-title {
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 56px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.home-explain{
+.home-explain {
   font-family: "Inter", sans-serif;
   font-weight: 500;
   margin-top: 2rem;
-  width:1067px;
+  width: 1067px;
   height: 96px;
   font-size: 40px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
 }
 
-.survey-nav-button{
-  
+.survey-nav-button {
   margin-top: 20px;
-  background-color:#B31A1B;
-  color:#FFFFFF;
+  background-color: #b31a1b;
+  color: #ffffff;
   padding-top: 23px;
   padding-bottom: 23px;
   padding-left: 46px;
@@ -89,49 +85,44 @@ nav{
   border: none;
   font-size: 23px;
   font-weight: bold;
-  
 }
 
-.survey-nav-button:hover{
-  
+.survey-nav-button:hover {
   background-color: #b13434;
-
 }
 
-.why-use{
+.why-use {
   height: 791px;
   align-content: center;
   justify-items: center;
-
 }
 
-.why-title{
+.why-title {
   color: black;
   font-size: 64px;
   font-weight: 700px;
 }
 
-.why-circles-container{
+.why-circles-container {
   display: flex;
   flex-direction: row;
-
 }
 
-.why-circle{
+.why-circle {
   margin: 50px;
   justify-items: center;
   align-content: center;
   justify-items: center;
 }
 
-.why-circle-title{
+.why-circle-title {
   font-size: 40px;
   font-weight: 700;
-  color: #4CAF50;
+  color: #4caf50;
   text-align: center;
 }
 
-.why-circle-explain{
+.why-circle-explain {
   margin-top: 30px;
   font-size: 24px;
   font-weight: 400;
@@ -139,35 +130,72 @@ nav{
 }
 
 .circular-img {
-  width: 200px;         /* or whatever size you want */
+  width: 200px; /* or whatever size you want */
   height: 200px;
-  border-radius: 50%;   /* this makes it a circle */
-  object-fit: cover;    /* ensures it fills the circle without distortion */
+  border-radius: 50%; /* this makes it a circle */
+  object-fit: cover; /* ensures it fills the circle without distortion */
   overflow: hidden;
 }
 
+.how-it-works {
+  background-color: #4caf50;
+  height: 550px;
+}
 
-.how-it-works{
-  height: 791px;
-  background-color: #4CAF50;
+.how-it-works * {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+.how-it-works-container {
+  transform: scale(0.85);
   justify-items: center;
-  padding: 80px;
-
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
 }
 
-.how-title{
-  
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  font-size: 56px;
-  color: #FFFFFF;
-  
+.how-it-works h1 {
+  color: white;
+  font-size: 40px;
 }
 
+.how-container-1 {
+  display: flex;
+  gap: 30px;
+}
 
-.ready{
+.how {
+  justify-items: center;
+  background-color: white;
+  border-radius: 8px;
+  padding: 2%;
+}
+
+.how p {
+  color: black;
+  font-weight: 450;
+  font-size: 25px;
+  margin-bottom: 20px;
+  width: 70%;
+}
+
+.how-bullet {
+  background-color: #4caf50;
+  display: inline-block;
+  border-radius: 150px;
+  padding: 11px 19px 11px 19px;
+  color: white;
+  font-weight: 800;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.ready {
   padding: 40px;
-  background-color: #B31A1B;
+  background-color: #b31a1b;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -176,10 +204,10 @@ nav{
   justify-content: center;
 }
 
-.survey-nav-button2{
+.survey-nav-button2 {
   margin-top: 20px;
-  background-color: #FFFFFF;
-  color:#B31A1B;
+  background-color: #ffffff;
+  color: #b31a1b;
   padding-top: 23px;
   padding-bottom: 23px;
   padding-left: 46px;
@@ -190,9 +218,7 @@ nav{
   font-weight: bold;
   width: fit-content;
   height: 86px;
-  
 }
-.survey-nav-button2:hover{
+.survey-nav-button2:hover {
   background-color: #f1ebeb;
-  
 }
