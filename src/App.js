@@ -1,17 +1,18 @@
-import './App.css';
-import Home from './pages/home';
-import Ex from './pages/explain';
-import Pj from './pages/project_teams';
+import "./App.css";
+import Home from "./pages/home";
+import Ex from "./pages/explain";
+import Pj from "./pages/project_teams";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Survey from "/Users/danielaramos/Documents/GitHub/BranchOut/src/pages/survey.js";
+import Survey from "./pages/survey.js";
 import { Link as ScrollLink } from "react-scroll";
-
 
 function Navbar() {
   return (
     <nav>
       {/* <Link className = {"link-styles"} to="/">Branch Out</Link> */}
-      <Link className={"link-styles2"} to="/">Home</Link>
+      <Link className={"link-styles2"} to="/">
+        Home
+      </Link>
       {/* <Link className={"link-styles2"} to="/explain">How It Works</Link> */}
       <ScrollLink
         className={"link-styles2"}
@@ -22,11 +23,14 @@ function Navbar() {
       >
         How It Works
       </ScrollLink>
-      <Link className={"link-styles2"} to="/project_teams">Project Teams</Link>
-      <Link className={"link-styles2"} to="/survey">Survey</Link>
-
+      <Link className={"link-styles2"} to="/project_teams">
+        Project Teams
+      </Link>
+      <Link className={"link-styles2"} to="/survey">
+        Survey
+      </Link>
     </nav>
-  )
+  );
 }
 
 function App() {
@@ -42,8 +46,5 @@ function App() {
     </Router>
   );
 }
-
-
-
 
 export default App;
