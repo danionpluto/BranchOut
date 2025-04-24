@@ -139,22 +139,20 @@ nav {
 
 .how-it-works {
   background-color: #4caf50;
-  height: 550px;
+  height: 650px;
+  align-items: center;
 }
 
 .how-it-works * {
   width: 100%;
   text-align: center;
-  align-items: center;
 }
 
 .how-it-works-container {
-  transform: scale(0.85);
-  justify-items: center;
+  transform: scale(0.9);
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  gap: 30px;
+  gap: 40px;
 }
 
 .how-it-works h1 {
@@ -170,14 +168,14 @@ nav {
 .how {
   justify-items: center;
   background-color: white;
-  border-radius: 8px;
+  border-radius: 20px;
   padding: 2%;
 }
 
 .how p {
   color: black;
   font-weight: 450;
-  font-size: 25px;
+  font-size: 30px;
   margin-bottom: 20px;
   width: 70%;
 }
